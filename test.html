@@ -7,10 +7,13 @@
         <style>
             body {
                 font-family: 'Montserrat', sans-serif;
+                flex-direction: row;
                 line-height: 1.5;
                 font-weight: 400;
                 font-size: 16px;
+                display: flex;
                 padding: 20px;
+                gap: 20px;
             }
             h1, h2, h3, h4, h5, h6 {
                 font-family: 'Montserrat', sans-serif;
@@ -33,6 +36,63 @@
             h3 {
                 font-weight: 900;
                 font-size: 24px;
+            }
+            .overline {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 400;
+                font-size: 12px;
+                color: #262626;
+            }
+            .price {
+                font-weight: 700;
+                margin-top: 5px;
+                font-size: 18px;
+                color: green;
+            }
+            .description {
+                font-weight: 400;
+                font-size: 14px;
+                color: #525252;
+            }
+            .components {
+                overflow-y: scroll;
+                height: 100%;
+                width: 100%;
+            }
+            .card-1 {
+                background-color: #f9f9f9;
+                flex-direction: row;
+                border-radius: 10px;
+                margin-bottom: 20px;
+                max-width: 600px;
+                display: flex;
+                padding: 20px;
+            }
+            .card-1 img {
+                border-radius: 10px;
+                margin-right: 14px;
+            }
+            .card-content-container {
+                flex-direction: column;
+                padding: 10px 0px;
+                display: flex;
+            }
+            .card-content-container .overline {
+                margin-bottom: 4px;
+            }
+            .card-title {
+                margin-bottom: 6px;
+                font-weight: 600;
+                font-size: 16px;
+            }
+            .card-content {
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                text-wrap: wrap;
+                height: 45px;
+                width: 100%;
             }
         </style>
     </head>
@@ -57,6 +117,90 @@
             The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
             Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
             in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+        </div>
+        <div
+            class="components"
+        >
+            <div
+                class="card-1"
+            >
+                <img
+                    src="https://media.istockphoto.com/id/517188688/tr/foto%C4%9Fraf/mountain-landscape.jpg?s=612x612&w=0&k=20&c=KpANCuD2dFxKw6Qy6XfMXpTHiZcsprOf0LRm2t4K9kM="
+                    height="150"
+                    width="auto"
+                />
+                <div
+                    class="card-content-container"
+                >
+                    <span
+                        class="overline"
+                    >
+                        Hesaplı Paket
+                    </span>
+                    <span
+                        class="card-title"
+                    >
+                        Çoklu Oyun Deneyimi
+                    </span>
+                    <span
+                        class="card-content description"
+                    >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been... the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem
+                        Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.
+                    </span>
+                    <span
+                        class="price"
+                    >
+                        50,45 ₺
+                    </span>
+                </div>
+            </div>
+            <div
+                class="card-1"
+            >
+                <img
+                    src="https://media.istockphoto.com/id/517188688/tr/foto%C4%9Fraf/mountain-landscape.jpg?s=612x612&w=0&k=20&c=KpANCuD2dFxKw6Qy6XfMXpTHiZcsprOf0LRm2t4K9kM="
+                    height="150"
+                    width="auto"
+                />
+                <div
+                    class="card-content-container"
+                >
+                    <span
+                        class="overline"
+                    >
+                        Hesaplı Paket
+                    </span>
+                    <span
+                        class="card-title"
+                    >
+                        Çoklu Oyun Deneyimi
+                    </span>
+                    <span
+                        class="card-content description"
+                    >
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been... the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap
+                        into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release of Letraset sheets containing Lorem
+                        Ipsum passages, and more recently with desktop publishing software like Aldus
+                        PageMaker including versions of Lorem Ipsum.
+                    </span>
+                    <span
+                        class="price"
+                    >
+                        50,45 ₺
+                    </span>
+                </div>
+            </div>
         </div>
     </body>
 </html>
