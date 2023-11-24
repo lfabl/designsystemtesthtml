@@ -8,13 +8,6 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <style>
-        body {
-            flex-direction: row;
-            display: flex;
-            padding: 20px;
-            gap: 20px;
-        }
-
         h1,
         h2,
         h3,
@@ -82,10 +75,201 @@
             font-size: 14px;
             font-weight: 700;
         }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 50px 200px;
+            gap: 50px;
+            background-color: rgb(230, 230, 230);
+            margin: 0;
+        }
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            align-items: center;
+            text-align: center;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 3px solid #ffffff;
+            border-radius: 16px;
+            padding: 30px;
+            gap: 20px;
+        }
+
+        .imageArea {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            padding: 50px;
+            background-color: aliceblue;
+            border-radius: 16px;
+        }
+
+        .imageContent {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            text-align: start;
+        }
+
+        .image {
+            border-radius: 16px;
+        }
+
+        .subContent {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .ButtonCards{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            padding: 50px;
+            border-radius: 16px;
+            background-color: aliceblue;
+        }
+        .ButtonCard{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 25px;
+            border-radius: 16px;
+            text-align: start;
+            align-items: start;
+        }
+        .ButtonCard>img{
+            width: 200px;
+            height: 200px;
+        }
+        button{
+            padding: 10px 20px;
+            border-radius: 100px;
+            width: fit-content;
+        }
     </style>
 </head>
-s
+
 <body>
+    <div class="container">
+        <h1>Main Title</h1>
+        <span class="NormalText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo harum quod similique cum, ratione et?
+            Nobis distinctio porro voluptate maxime voluptatibus corrupti ipsa molestiae, dolorem ipsum nam, suscipit,
+            earum nemo! Odit natus sunt ut vel! Soluta consequatur quod eius neque praesentium maxime exercitationem sit
+            nesciunt doloremque explicabo optio quas obcaecati veniam vero repudiandae, laudantium delectus a laborum
+            ipsum eligendi. Voluptates, harum culpa! Veritatis atque modi corporis quae debitis suscipit ut nihil magni,
+            veniam nobis libero vitae excepturi consequatur nulla praesentium eos nostrum enim illo aperiam labore eius
+            laborum? Vitae quis fugit vero nesciunt voluptatem possimus molestias eveniet omnis expedita.
+        </span>
+        <span class="BoldText">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt nobis natus, debitis dolorem minima
+            nulla!
+        </span>
+        <div class="cards">
+            <div class="card">
+                <span class="SubTitle1">
+                    Subtitle 1
+                </span>
+                <span class="NormalText">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus ducimus earum asperiores, placeat
+                    exercitationem delectus possimus dignissimos laboriosam harum?
+                </span>
+                <span class="Caption">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+            </div>
+            <div class="card">
+                <span class="SubTitle1">
+                    Subtitle 1
+                </span>
+                <span class="NormalText">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus ducimus earum asperiores, placeat
+                    exercitationem delectus possimus dignissimos laboriosam harum?
+                </span>
+                <span class="Highlight">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+            </div>
+            <div class="card">
+                <span class="SubTitle1">
+                    Subtitle 1
+                </span>
+                <span class="NormalText">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus ducimus earum asperiores, placeat
+                    exercitationem delectus possimus dignissimos laboriosam harum?
+                </span>
+                <span class="Highlight">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+            </div>
+        </div>
+        <div class="imageArea">
+            <img src="https://picsum.photos/300/300" alt="" class="image">
+            <div class="imageContent">
+                <h2>İmage Title</h2>
+                <span class="NormalText">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque neque veritatis qui in magnam
+                    assumenda voluptates nam, libero dolores sit, aliquid officiis? At cumque laborum soluta,
+                    consequatur libero obcaecati.
+                    <span class="BoldText">
+                        Deleniti expedita, cumque consectetur officiis illum aliquam quos
+                        laboriosam doloribus voluptatum. Molestias id officiis perferendis officia distinctio
+                        cupiditate,
+                    </span>
+                    fuga magni esse modi praesentium similique alias, ea culpa, impedit ab vel omnis. Officia reiciendis
+                    veritatis magni! Voluptas corrupti maiores minus beatae iusto nemo, placeat ipsam nostrum voluptatum
+                    suscipit natus aliquid necessitatibus ratione odit nam esse numquam veniam rerum ipsum,
+                </span>
+                <div class="subContent">
+                    <span class="Highlight">
+                        Resim hakkında önemli bir bildiri
+                    </span>
+                    <span class="SubTitle1">
+                        852369.777
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="buttonCards">
+            <div class="buttonCard">
+                <img src="https://picsum.photos/200/200" alt="" class="image">
+                <h3>H3 başlığı</h3>
+                <span class="Caption">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo harum quod similique cum,
+                    ratione
+                    et?
+                    Nobis distinctio porro voluptate maxime voluptatibus corrupti ipsa molestiae, dolorem ipsum nam,
+                    suscipit,
+                </span>
+                <Button class="BoldText"> Click me!</Button>
+            </div>
+            <div class="buttonCard">
+                <img src="https://picsum.photos/200/200" alt="" class="image">
+                <h3>H3 başlığı</h3>
+                <span class="Caption">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias illo harum quod similique cum,
+                    ratione
+                    et?
+                    Nobis distinctio porro voluptate maxime voluptatibus corrupti ipsa molestiae, dolorem ipsum nam,
+                    suscipit,
+                </span>
+                <Button class="BoldText"> Click me!</Button>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
